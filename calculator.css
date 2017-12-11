@@ -5,7 +5,7 @@
 .box {
 	background-color: #e5538e;
 	height: 300px;
-	width: 250px;	
+	width: 310px;	
 	border-radius: 10px;
 	position: relative;
 	top: 80px;
@@ -15,7 +15,7 @@
 /*Display*/
 .display {
 	background-color: #4d52af;
-	width: 220px;	
+	width: 280px;	
 	position: relative;
 	top: 20px;
 	height: 40px;
@@ -25,7 +25,7 @@
 .display input {
 	background-color: #00ebb8;
 	height: 30px;
-	width: 210px;	
+	width: 270px;	
 	position: relative;
 	top: 2px;
 	left: 2px;
