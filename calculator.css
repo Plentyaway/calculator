@@ -3,9 +3,12 @@
 
 /*Calculator Box*/
 .box {
-	background-color: #e5e7ea;
+	background-color: #e5538e;
+	background-image: url("https://media.giphy.com/media/3ohuP8gmeoBeA0xvgI/giphy.gif");
+	background-position: center;
+	background-size:cover;
 	height: 300px;
-	width: 250px;	
+	width: 310px;	
 	border-radius: 10px;
 	position: relative;
 	top: 80px;
@@ -14,17 +17,18 @@
 
 /*Display*/
 .display {
-	background-color: #bfc4ce;
-	width: 220px;	
+	background-color: #4d52af;
+	width: 280px;	
 	position: relative;
-	top: 24px;
+	top: 20px;
 	height: 40px;
+	left: 15px;
 }
 
 .display input {
-	background-color: #bccd95;
+	background-color: #00ebb8;
 	height: 30px;
-	width: 210px;	
+	width: 270px;	
 	position: relative;
 	top: 2px;
 	left: 2px;
@@ -47,21 +51,27 @@
 	cursor: pointer;
 	border-top: 2px solid transparent;	
 }
-.button function {
+.button.function {
 	color: white;
-	background-color: #c64f81;
+	background-color: #4d52af;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;	
 }
 .button.operator {
 	color: white;
-	background-color: #4d5966;
+	background-color: #2d98d9;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;	
 }
 .button.number {
 	color: white;
-	background-color: #7091ab;
+	background-color: #a8e76f;
+	border-bottom: black 2px solid;
+	border-top: 2px #6f6f6f solid;	
+}
+.button.constant {
+	color: white;
+	background-color: #9370DB;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;	
 }
