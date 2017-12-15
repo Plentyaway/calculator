@@ -19,3 +19,16 @@ function e() {
 		d("Error");	
 	}
 }
+//Factorial the Value
+function q(val) {
+	if(val === 1 || val === 0) {
+		return 	1;
+	}
+	else {
+		return val * q(val-1);	
+	}
+}
+function q_button() {
+		e();
+		d(q(document.getElementById("d").value));	
+}

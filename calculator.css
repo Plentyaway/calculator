@@ -4,6 +4,9 @@
 /*Calculator Box*/
 .box {
 	background-color: #e5538e;
+	background-image: url("https://media.giphy.com/media/3ohuP8gmeoBeA0xvgI/giphy.gif");
+	background-position: center;
+	background-size:cover;
 	height: 300px;
 	width: 310px;	
 	border-radius: 10px;
@@ -63,6 +66,12 @@
 .button.number {
 	color: white;
 	background-color: #a8e76f;
+	border-bottom: black 2px solid;
+	border-top: 2px #6f6f6f solid;	
+}
+.button.constant {
+	color: white;
+	background-color: #9370DB;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;	
 }
