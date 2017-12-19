@@ -43,13 +43,12 @@ function s_button() {
 }
 //Evaluate Value with Exponent
 function se(val1,val2) {
-	return val1 *= val2	
+	return Math.pow(val1, val2);
 }
 function se_button() {
 	e();
 	var x = document.getElementById("d").value;
-	d("");
-	alert("Please input the value of your exponent");
-	var y = document.getElementById("d").value;
+	d();
+	var y = eval(prompt("What is the value of your exponent?"));
 	d(se(x,y));
 }
